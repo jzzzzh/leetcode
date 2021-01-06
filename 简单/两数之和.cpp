@@ -21,7 +21,7 @@ public:
                     break;
                 }
             }
-            if (flag)
+            if (flag == true)
                 break;
         }
         return {a, b};
